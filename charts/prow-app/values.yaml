@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.75.243.88:5000/wbrefvem/prow-app
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: prow-app
